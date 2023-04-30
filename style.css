@@ -1,0 +1,41 @@
+.navbar-brand{
+    color: white;
+}
+.navbar{
+    background-color: rgb(223, 134, 26) !important; 
+}
+.hi{
+    margin-top: 10px;
+}
+.welcome-bar{
+    margin-top: 10px !important;
+}
+.btn{
+    line-height: 10px !important;
+    width: 60px !important;
+    background-color: orange;
+}
+.btn:hover {
+    background-color: rgb(194, 134, 23);
+}
+#JSONRequestBox{
+    margin-top: 10px;
+}
+.btn2{
+    line-height: 30px !important;
+    width: 80px !important;
+    background-color: orange;
+    border-color: orange;
+    margin-top: 10px;
+}
+.btn2:hover {
+    background-color: rgb(194, 134, 23);
+}
+#ResponseBox{
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+#responsePre{
+    min-height: 50px !important;
+    max-height: 400px !important;
+}
