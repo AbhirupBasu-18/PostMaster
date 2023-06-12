@@ -38,15 +38,15 @@ let cnt = 1;
 addButton.addEventListener("click", () => {
   let param = document.getElementById("params");
   cnt++;
-  let string = `<div class="row my-2">
+  let string = `<div class="row my-2 hi">
         <label for="text" class="col-sm-2 col-form-label">Parameter</label>
         <div class="col-md-4">
-        <input type="text" class="form-control" id="ParameterKey${cnt}" placeholder="Enter Parameter  key" aria-label="First name">
+        <input type="text" class="form-control hi" id="ParameterKey${cnt}" placeholder="Enter Parameter  key" aria-label="First name">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hi">
         <input type="text" class="form-control" id="ParameterValue${cnt}" placeholder="Enter Parameter Value" aria-label="Last name">
         </div>
-        <button class="btn col-md-1 deleteparam" id="button${cnt}">-</button>
+        <button class="btn col-md-1 hi deleteparam" id="button${cnt}">-</button>
     </div>`;
   //Convert string to DOM node
   let paramElement = getElementFromString(string);
